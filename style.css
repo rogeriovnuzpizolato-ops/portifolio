@@ -200,9 +200,6 @@ li{
    width: 300px;
 }
 @media(max-width:768px){
-    body{
-        padding: 20px;
-    }
     header{
         display:flex;
         flex-direction: column;
@@ -218,3 +215,4 @@ li{
        margin-bottom: 20px;
     }
 }
+
