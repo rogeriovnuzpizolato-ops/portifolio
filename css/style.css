@@ -32,18 +32,6 @@ body{
 #links li{
     margin: 0 auto 10px;
 }
-#links a{
-    background-color: white;
-    border: 3px solid gray;
-    border-radius: 16px;
-    color: black;
-    text-decoration: none;
-    padding: 5px;
-}
-#links a:hover{
-    background-color: gray;
-    border: 3px solid white;
-}
 
 /*main*/
 .projeto1{
@@ -63,13 +51,52 @@ body{
     margin: 5px;
     padding: 10px;
 }
-#projeto1 p{
-    margin: 5px 0;
+#Pjt1 p{
+    margin: 10px 0;
 }
-#projeto1 a{
+#Pjt1 a{
     color: white;
     text-decoration: none;
     background-color: black;
     padding: 2px;
     border-radius: 6px;
+}
+#Pjt2 p{
+   margin: 10px 0;
+}
+#Pjt2 a{
+    color: white;
+    text-decoration: none;
+    background-color: black;
+    padding: 2px;
+    border-radius: 6px;
+}
+#Pjt3 p{
+   margin: 10px 0;
+}
+#Pjt3 a{
+    color: white;
+    text-decoration: none;
+    background-color: black;
+    padding: 2px;
+    border-radius: 6px;
+}
+#Pjt4 p{
+   margin: 10px 0;
+}
+#Pjt4 a{
+    color: white;
+    text-decoration: none;
+    background-color: black;
+    padding: 2px;
+    border-radius: 6px;
+}
+/*footer*/
+
+footer{
+    padding: 10px;
+    text-align: center;
+}
+footer p{
+    margin: 5px 0;
 }
