@@ -6,6 +6,7 @@ body{
     background-color: black;
     color: white;
 }
+/*header*/
 #titulo h1{
     text-align: center;
 }
@@ -13,12 +14,14 @@ body{
     color: gray;
 }
 #foto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     width: 100%;
 }
 #foto img{
-    display: inline-block;
+    margin: 20px 0;
     width: 140px;
-    margin: 20px 32% 20px;
     border: 3px solid white;
     border-radius: 50%;
 }
@@ -100,3 +103,97 @@ footer{
 footer p{
     margin: 5px 0;
 }
+/*css tablet*/
+@media(min-width:660px){
+    #titulo h1{
+        font-size: 40px;
+    }
+    #foto{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+    #foto img{
+        width: 255px;
+    }
+    #links img{
+        width: 88px;
+    }
+    #Pjt1{
+        padding: 15px;
+    }
+    #Pjt1 h2{
+        font-size: 32px;
+    }
+    #Pjt1 p{
+    margin: 10px 0 25px;
+    font-size: 24px;
+    }
+    #Pjt1 a{
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    background-color: black;
+    padding: 10px;
+    border-radius: 6px;
+    }
+    #Pjt2{
+        padding: 15px;
+    }
+    #Pjt2 h2{
+        font-size: 32px;
+    }
+    #Pjt2 p{
+    margin: 10px 0 25px;
+    font-size: 24px;
+    }
+    #Pjt2 a{
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    background-color: black;
+    padding: 10px;
+    border-radius: 6px;
+    }
+    #Pjt3{
+        padding: 15px;
+    }
+    #Pjt3 h2{
+        font-size: 32px;
+    }
+    #Pjt3 p{
+    margin: 10px 0 25px;
+    font-size: 24px;
+    }
+    #Pjt3 a{
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    background-color: black;
+    padding: 10px;
+    border-radius: 6px;
+    }
+    #Pjt4{
+        padding: 15px;
+    }
+    #Pjt4 h2{
+        font-size: 32px;
+    }
+    #Pjt4 p{
+    margin: 10px 0 25px;
+    font-size: 24px;
+    }
+    #Pjt4 a{
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    background-color: black;
+    padding: 10px;
+    border-radius: 6px;
+    }
+    footer{
+        font-size: 20px;
+    }
+}
+/*css desktop*/
