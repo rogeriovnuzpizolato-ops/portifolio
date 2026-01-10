@@ -94,6 +94,26 @@ body{
     padding: 2px;
     border-radius: 6px;
 }
+#Pjt5 p{
+   margin: 10px 0;
+}
+#Pjt5 a{
+    color: white;
+    text-decoration: none;
+    background-color: black;
+    padding: 2px;
+    border-radius: 6px;
+}
+#Pjt6 p{
+   margin: 10px 0;
+}
+#Pjt6 a{
+    color: white;
+    text-decoration: none;
+    background-color: black;
+    padding: 2px;
+    border-radius: 6px;
+}
 /*footer*/
 
 footer{
@@ -188,6 +208,42 @@ footer p{
     font-size: 24px;
     }
     #Pjt4 a{
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    background-color: black;
+    padding: 10px;
+    border-radius: 6px;
+    }
+     #Pjt5{
+        padding: 15px;
+    }
+    #Pjt5 h2{
+        font-size: 32px;
+    }
+    #Pjt5 p{
+    margin: 10px 0 25px;
+    font-size: 24px;
+    }
+    #Pjt5 a{
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    background-color: black;
+    padding: 10px;
+    border-radius: 6px;
+    }
+     #Pjt6{
+        padding: 15px;
+    }
+    #Pjt6 h2{
+        font-size: 32px;
+    }
+    #Pjt6 p{
+    margin: 10px 0 25px;
+    font-size: 24px;
+    }
+    #Pjt6 a{
     font-size: 20px;
     color: white;
     text-decoration: none;
