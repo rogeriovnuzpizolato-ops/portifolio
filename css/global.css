@@ -10,5 +10,5 @@ body {
   /* cores de texto */
   --cor-de-texto: white;
   --cor-de-span: green;
-  --cor-de-borda: black;
+  --cor-de-borda: rgb(4, 91, 4);
 }

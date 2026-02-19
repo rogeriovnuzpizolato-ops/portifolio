@@ -19,7 +19,7 @@
 }
 .projeto{
     color: var(--cor-de-texto);
-    border: 3px solid var(--cor-de-span);
+    border: 3px solid var(--cor-de-borda);
     border-radius: 16px;
     padding: 10px;
     text-align: center;
