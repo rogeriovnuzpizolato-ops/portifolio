@@ -1,0 +1,6 @@
+.nav-container ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 50px;
+}
