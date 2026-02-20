@@ -7,6 +7,11 @@ body {
   margin: 24px;
   padding: 24px;
 }
+@media screen and (min-width:1440px){
+  body{
+    padding: 150px;
+  }
+}
 :root {
   /* cores de texto */
   --cor-de-texto: white;
