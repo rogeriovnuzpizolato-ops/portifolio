@@ -18,6 +18,8 @@
     gap: 24px;
 }
 .projeto{
+    width: 100%;
+    height: auto;
     color: var(--cor-de-texto);
     border: 3px solid var(--cor-de-borda);
     border-radius: 16px;
@@ -33,4 +35,13 @@
     border-radius: 16px;
     padding: 5px;
     text-decoration: none;
+}
+@media screen and (min-width:768px){
+    .sessao-titulo h2{
+        font-size: 40px;
+    }
+    .projeto{
+        font-size: 24px;
+        padding: 20px;
+    }
 }

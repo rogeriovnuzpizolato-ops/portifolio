@@ -5,3 +5,12 @@
     gap: 50px;
     margin-bottom: 24px;
 }
+@media screen and (min-width:768px) {
+ .nav-container ul{
+    gap: 100px;
+ }
+ .icones a img {
+    display: block;
+    width: 86px;
+ }
+}
