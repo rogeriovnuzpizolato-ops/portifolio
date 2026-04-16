@@ -16,11 +16,22 @@
 .perfil span {
   color: var(--cor-de-span);
 }
-.foto-perfil {
-  display: block;
-  width: 150px;
-  height: auto;
+.titlle{
+ font-weight: 900;
 }
+.about-me{
+  width: 100%;
+  text-align: center;
+  padding: 10px;
+  color: black;
+  background-color: rgba(255, 255, 255, 0.863);
+  border-radius: 16px;
+}
+.about-me h2{
+  font-size: 18px;
+  line-height: 25px;
+}
+
 @media screen and (min-width:768px){
   .foto-perfil{
     width: 300px;
