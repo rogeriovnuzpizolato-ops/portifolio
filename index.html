@@ -1,246 +1,300 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="pt-BR">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Rogerio — Desenvolvedor JavaScript</title>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="style.css">
-</head>
-<body>
-
-<header class="header" id="header">
-  <div class="container header__inner">
-    <a href="#top" class="logo">&lt;Rogerio<span class="cursor-blink">/</span>&gt;</a>
-    <button class="nav-toggle" id="navToggle" aria-label="Abrir menu" aria-expanded="false">
-      <span></span><span></span><span></span>
-    </button>
-    <nav class="nav" id="nav">
-      <a href="#sobre" class="nav__link">sobre</a>
-      <a href="#habilidades" class="nav__link">habilidades</a>
-      <a href="#projetos" class="nav__link">projetos</a>
-      <a href="#contato" class="nav__link">contato</a>
-    </nav>
-  </div>
-</header>
-
-<main id="top">
-
-  <!-- HERO -->
-  <section class="hero container">
-    <div class="terminal">
-      <div class="terminal__bar">
-        <span class="dot dot--red"></span>
-        <span class="dot dot--yellow"></span>
-        <span class="dot dot--green"></span>
-        <span class="terminal__title">rogerio@portfolio: ~</span>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rogerio — Desenvolvedor JavaScript</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&family=Inter:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="header" id="header">
+      <div class="container header__inner">
+        <a href="#top" class="logo"
+          >&lt;Rogerio<span class="cursor-blink">/</span>&gt;</a
+        >
+        <button
+          class="nav-toggle"
+          id="navToggle"
+          aria-label="Abrir menu"
+          aria-expanded="false"
+        >
+          <span></span><span></span><span></span>
+        </button>
+        <nav class="nav" id="nav">
+          <a href="#sobre" class="nav__link">sobre</a>
+          <a href="#habilidades" class="nav__link">habilidades</a>
+          <a href="#projetos" class="nav__link">projetos</a>
+          <a href="#contato" class="nav__link">contato</a>
+        </nav>
       </div>
-      <div class="terminal__body">
-        <p class="line"><span class="prompt">$</span> whoami</p>
-        <p class="line output">rogerio — dev front-end em formação</p>
-        <p class="line"><span class="prompt">$</span> status</p>
-        <p class="line output">focado em vaga junior / freelance</p>
-        <p class="line"><span class="prompt">$</span> <span class="cursor-blink">▍</span></p>
-      </div>
-    </div>
+    </header>
 
-    <h1 class="hero__title">Oi, eu sou <span class="accent">Rogerio</span>.</h1>
-    <p class="hero__subtitle">Desenvolvedor front-end em formação, construindo projetos reais em JavaScript enquanto me preparo para minha primeira vaga.</p>
+    <main id="top">
+      <!-- HERO -->
+      <section class="hero container">
+        <div class="terminal">
+          <div class="terminal__bar">
+            <span class="dot dot--red"></span>
+            <span class="dot dot--yellow"></span>
+            <span class="dot dot--green"></span>
+            <span class="terminal__title">rogerio@portfolio: ~</span>
+          </div>
+          <div class="terminal__body">
+            <p class="line"><span class="prompt">$</span> whoami</p>
+            <p class="line output">rogerio — dev front-end em formação</p>
+            <p class="line"><span class="prompt">$</span> status</p>
+            <p class="line output">focado em vaga junior / freelance</p>
+            <p class="line">
+              <span class="prompt">$</span> <span class="cursor-blink">▍</span>
+            </p>
+          </div>
+        </div>
 
-    <div class="hero__actions">
-      <a href="#projetos" class="btn btn--primary">Ver projetos</a>
-      <a href="#contato" class="btn btn--ghost">Falar comigo</a>
-    </div>
-  </section>
-
-  <!-- SOBRE -->
-  <section class="section" id="sobre">
-    <div class="container">
-      <p class="eyebrow">// sobre-mim.js</p>
-      <h2 class="section__title">Sobre mim</h2>
-
-      <div class="card card--code">
-        <p class="code-comment">/**</p>
-        <p class="code-comment"> * Um resumo sincero de quem eu sou como dev,</p>
-        <p class="code-comment"> * baseado no que venho construindo até aqui.</p>
-        <p class="code-comment"> */</p>
-        <p class="about-text">
-          Eu prefiro aprender fazendo. Em vez de só assistir aula atrás de aula, gosto de sair
-          construindo projeto de verdade — foi assim com o rastreador de gastos, o dashboard do
-          clima, o hábito tracker, o Kanban, a biblioteca pessoal e, mais recentemente, os projetos
-          com json-server praticando arquitetura em camadas (api.js, ui.js, main.js) e delegação de eventos.
+        <h1 class="hero__title">Rogério <span class="accent">Luiz</span>.</h1>
+        <p class="hero__subtitle">
+          Estudante de Análise e Desenvolvimento de Sistemas e desenvolvedor
+          Front-end em formação. Transformando aprendizado em projetos reais com
+          JavaScript, HTML e CSS, enquanto busco minha primeira oportunidade
+          como desenvolvedor..
         </p>
-        <p class="about-text">
-          Também gosto de entender o "porquê" antes de sair copiando código, e tento resolver os
-          problemas sozinho antes de pedir ajuda. Quando um projeto fica grande demais — como
-          aconteceu com o app de biblioteca — não tenho problema em simplificar e voltar depois
-          com mais base, como fiz criando uma lista de tarefas mais simples antes de seguir em frente.
+
+        <div class="hero__actions">
+          <a href="#projetos" class="btn btn--primary">Ver projetos</a>
+          <a href="#contato" class="btn btn--ghost">Falar comigo</a>
+        </div>
+      </section>
+
+      <!-- SOBRE -->
+      <section class="section" id="sobre">
+        <div class="container">
+          <p class="eyebrow">// sobre-mim.js</p>
+          <h2 class="section__title">Sobre mim</h2>
+
+          <div class="card card--code">
+            <p class="code-comment">/**</p>
+            <p class="code-comment">
+              * Um resumo sincero de quem eu sou como dev,
+            </p>
+            <p class="code-comment">
+              * baseado no que venho construindo até aqui.
+            </p>
+            <p class="code-comment">*/</p>
+            <p class="about-text">
+              Prefiro aprender fazendo. Em vez de apenas assistir às aulas,
+              gosto de colocar a mão na massa e transformar o que estudo em
+              projetos reais. Foi assim que desenvolvi um rastreador de gastos,
+              um dashboard do clima, um habit tracker, um Kanban, e mais
+              recentemente, projetos utilizando json-server, arquitetura em
+              camadas (api.js, ui.js e main.js) e delegação de eventos.
+            </p>
+            <p class="about-text">
+              Também gosto de entender o "porquê" antes de copiar código. Sempre
+              tento resolver os problemas sozinho antes de pedir ajuda e, quando
+              um projeto fica complexo demais, não tenho medo de simplificar,
+              reorganizar e continuar evoluindo com uma base mais sólida.
+            </p>
+            <p class="about-text">
+              No fim das contas, sou o tipo de desenvolvedor que insiste até
+              encontrar a solução. Cada bug resolvido e cada projeto concluído
+              representam um passo a mais na minha evolução rumo à minha
+              primeira oportunidade na área.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- HABILIDADES -->
+      <section class="section section--alt" id="habilidades">
+        <div class="container">
+          <p class="eyebrow">// habilidades.json</p>
+          <h2 class="section__title">Habilidades</h2>
+
+          <div class="skills-grid">
+            <div class="skill-card">
+              <h3 class="skill-card__title">Fundamentos</h3>
+              <ul class="skill-list">
+                <li>HTML semântico</li>
+                <li>CSS (mobile-first, flexbox, grid)</li>
+                <li>JavaScript (ES6+)</li>
+                <li>git / github</li>
+              </ul>
+            </div>
+            <div class="skill-card">
+              <h3 class="skill-card__title">JavaScript na prática</h3>
+              <ul class="skill-list">
+                <li>Manipulação de DOM</li>
+                <li>Métodos de array (map, filter, reduce, find)</li>
+                <li>Delegação de eventos</li>
+                <li>fetch / async-await</li>
+                <li>localStorage</li>
+              </ul>
+            </div>
+            <div class="skill-card">
+              <h3 class="skill-card__title">Arquitetura</h3>
+              <ul class="skill-list">
+                <li>Arquitetura modular e separação de responsabilidades</li>
+                <li>Consumo de API REST (json-server)</li>
+                <li>Fluxo de dados unidirecional</li>
+              </ul>
+            </div>
+            <div class="skill-card skill-card--next">
+              <h3 class="skill-card__title">Em construção</h3>
+              <ul class="skill-list">
+                <li>Framework (React ou Vue)</li>
+                <li>Testes básicos</li>
+                <li>Git com histórico limpo</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- PROJETOS -->
+      <section class="section" id="projetos">
+        <div class="container">
+          <p class="eyebrow">// projetos.log</p>
+          <h2 class="section__title">Projetos</h2>
+
+          <div class="projects-grid">
+            <article class="project-card">
+              <span class="badge badge--done">concluído</span>
+              <h3 class="project-card__title">Lista de Contatos</h3>
+              <p class="project-card__desc">
+                CRUD completo com json-server, focado em praticar delegação de
+                eventos: favoritar, editar e excluir contatos com um único
+                listener.
+              </p>
+              <div class="tags">
+                <span class="tag">json-server</span
+                ><span class="tag">Event Delegation</span
+                ><span class="tag">CRUD</span>
+              </div>
+              <a href="https://lista-de-contatos-gamma-liard.vercel.app/" class="project-card__link">ver código →</a>
+            </article>
+
+            <article class="project-card">
+              <span class="badge badge--done">concluído</span>
+              <h3 class="project-card__title">Fokus</h3>
+              <p class="project-card__desc">
+                Projeto de prática com arquitetura em três camadas (api.js /
+                ui.js / main.js) e fluxo de dados unidirecional.
+              </p>
+              <div class="tags">
+                <span class="tag">DOM</span
+                ><span class="tag">Arquitetura</span>
+              </div>
+              <a href="https://fokus-liard-ten.vercel.app/" class="project-card__link">ver código →</a>
+            </article>
+
+            <article class="project-card">
+              <span class="badge badge--done">concluído</span>
+              <h3 class="project-card__title">Kanban Board</h3>
+              <p class="project-card__desc">
+                Quadro com três colunas (a fazer, fazendo, feito), movimentação
+                de tarefas e persistência via localStorage.
+              </p>
+              <div class="tags">
+                <span class="tag">localStorage</span
+                ><span class="tag">DOM</span>
+              </div>
+              <a href="https://projeto-kanban-swart.vercel.app/" class="project-card__link">ver código →</a>
+            </article>
+
+            <article class="project-card">
+              <span class="badge badge--done">concluído</span>
+              <h3 class="project-card__title">Habit Tracker</h3>
+              <p class="project-card__desc">
+                Rastreador de hábitos construído do zero, com toggle de estados
+                e cálculo de estatísticas.
+              </p>
+              <div class="tags">
+                <span class="tag">Event Delegation</span
+                ><span class="tag">Array methods</span>
+              </div>
+              <a href="https://rastreador-de-habitos-rho.vercel.app/" class="project-card__link">ver código →</a>
+            </article>
+
+            <article class="project-card">
+              <span class="badge badge--done">concluído</span>
+              <h3 class="project-card__title">Weather Dashboard</h3>
+              <p class="project-card__desc">
+                Consumo da API OpenWeatherMap com tratamento de erros para
+                cidades inválidas.
+              </p>
+              <div class="tags">
+                <span class="tag">API</span><span class="tag">fetch</span>
+              </div>
+              <a href="https://dashboard-clima-teal.vercel.app/" class="project-card__link">ver código →</a>
+            </article>
+
+            <article class="project-card">
+              <span class="badge badge--done">concluído</span>
+              <h3 class="project-card__title">Expense Tracker</h3>
+              <p class="project-card__desc">
+                Controle de gastos com manipulação de DOM e cálculo de totais
+                usando reduce.
+              </p>
+              <div class="tags">
+                <span class="tag">DOM</span><span class="tag">reduce</span>
+              </div>
+              <a href="https://rastreador-de-gastos.vercel.app/" class="project-card__link">ver código →</a>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- CONTATO -->
+      <section class="section section--alt" id="contato">
+        <div class="container">
+          <p class="eyebrow">// contato.sh</p>
+          <h2 class="section__title">Vamos conversar?</h2>
+          <p class="contact__text">
+            Estou aberto a oportunidades como desenvolvedor junior ou projetos
+            freelance. Me chama em um dos canais abaixo.
+          </p>
+
+          <div class="contact-links">
+            <a href="mailto:rogerioluizdev@gmail.com" class="contact-link">
+              <span class="contact-link__label">email</span>
+              <span class="contact-link__value">rogerioluizdev@gmail.com</span>
+            </a>
+            <a
+              href="https://github.com/rogeriovnuzpizolato-ops"
+              class="contact-link"
+            >
+              <span class="contact-link__label">github</span>
+              <span class="contact-link__value"
+                >github.com/rogeriovnuzpizolato-ops</span
+              >
+            </a>
+            <a
+              href="https://www.linkedin.com/in/rogerio-luiz-pizolato-bba8b1397"
+              class="contact-link"
+            >
+              <span class="contact-link__label">linkedin</span>
+              <span class="contact-link__value"
+                >linkedin.com/in/rogerio-luiz-pizolato</span
+              >
+            </a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <p>
+          &copy; 2026 Rogerio. Construído linha por linha, um bug de cada vez.
         </p>
-        <p class="about-text">
-          No fim das contas, sou o tipo de dev que persegue bugs até o fim: já rastreei desde um
-          espaço a mais quebrando um header HTTP até um <code>.value</code> chamado cedo demais numa
-          Promise. É nesse processo, tijolo por tijolo, que estou virando um desenvolvedor pronto
-          pra próxima etapa.
-        </p>
       </div>
-    </div>
-  </section>
+    </footer>
 
-  <!-- HABILIDADES -->
-  <section class="section section--alt" id="habilidades">
-    <div class="container">
-      <p class="eyebrow">// habilidades.json</p>
-      <h2 class="section__title">Habilidades</h2>
-
-      <div class="skills-grid">
-        <div class="skill-card">
-          <h3 class="skill-card__title">Fundamentos</h3>
-          <ul class="skill-list">
-            <li>HTML semântico</li>
-            <li>CSS (mobile-first, flexbox, grid)</li>
-            <li>JavaScript (ES6+)</li>
-          </ul>
-        </div>
-        <div class="skill-card">
-          <h3 class="skill-card__title">JavaScript na prática</h3>
-          <ul class="skill-list">
-            <li>Manipulação de DOM</li>
-            <li>Métodos de array (map, filter, reduce, find)</li>
-            <li>Delegação de eventos</li>
-            <li>fetch / async-await</li>
-            <li>localStorage</li>
-          </ul>
-        </div>
-        <div class="skill-card">
-          <h3 class="skill-card__title">Arquitetura</h3>
-          <ul class="skill-list">
-            <li>Separação em api.js / ui.js / main.js</li>
-            <li>Consumo de API REST (json-server)</li>
-            <li>Fluxo de dados unidirecional</li>
-          </ul>
-        </div>
-        <div class="skill-card skill-card--next">
-          <h3 class="skill-card__title">Em construção</h3>
-          <ul class="skill-list">
-            <li>Framework (React ou Vue)</li>
-            <li>Testes básicos</li>
-            <li>Git com histórico limpo</li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- PROJETOS -->
-  <section class="section" id="projetos">
-    <div class="container">
-      <p class="eyebrow">// projetos.log</p>
-      <h2 class="section__title">Projetos</h2>
-
-      <div class="projects-grid">
-
-        <article class="project-card">
-          <span class="badge badge--progress">em andamento</span>
-          <h3 class="project-card__title">Pomodoro Timer</h3>
-          <p class="project-card__desc">Timer de produtividade em JavaScript puro, ainda em construção.</p>
-          <div class="tags"><span class="tag">JavaScript</span><span class="tag">Timers</span></div>
-          <a href="#" class="project-card__link">ver código →</a>
-        </article>
-
-        <article class="project-card">
-          <span class="badge badge--done">concluído</span>
-          <h3 class="project-card__title">Lista de Contatos</h3>
-          <p class="project-card__desc">CRUD completo com json-server, focado em praticar delegação de eventos: favoritar, editar e excluir contatos com um único listener.</p>
-          <div class="tags"><span class="tag">json-server</span><span class="tag">Event Delegation</span><span class="tag">CRUD</span></div>
-          <a href="#" class="project-card__link">ver código →</a>
-        </article>
-
-        <article class="project-card">
-          <span class="badge badge--done">concluído</span>
-          <h3 class="project-card__title">CRUD com json-server</h3>
-          <p class="project-card__desc">Projeto de prática com arquitetura em três camadas (api.js / ui.js / main.js) e fluxo de dados unidirecional.</p>
-          <div class="tags"><span class="tag">fetch</span><span class="tag">async/await</span><span class="tag">Arquitetura</span></div>
-          <a href="#" class="project-card__link">ver código →</a>
-        </article>
-
-        <article class="project-card">
-          <span class="badge badge--done">concluído</span>
-          <h3 class="project-card__title">Kanban Board</h3>
-          <p class="project-card__desc">Quadro com três colunas (a fazer, fazendo, feito), movimentação de tarefas e persistência via localStorage.</p>
-          <div class="tags"><span class="tag">localStorage</span><span class="tag">DOM</span></div>
-          <a href="#" class="project-card__link">ver código →</a>
-        </article>
-
-        <article class="project-card">
-          <span class="badge badge--done">concluído</span>
-          <h3 class="project-card__title">Biblioteca Pessoal</h3>
-          <p class="project-card__desc">App com dados relacionais, filtros e paginação para organizar uma coleção de livros.</p>
-          <div class="tags"><span class="tag">Filtros</span><span class="tag">Paginação</span></div>
-          <a href="#" class="project-card__link">ver código →</a>
-        </article>
-
-        <article class="project-card">
-          <span class="badge badge--done">concluído</span>
-          <h3 class="project-card__title">Habit Tracker</h3>
-          <p class="project-card__desc">Rastreador de hábitos construído do zero, com toggle de estados e cálculo de estatísticas.</p>
-          <div class="tags"><span class="tag">Event Delegation</span><span class="tag">Array methods</span></div>
-          <a href="#" class="project-card__link">ver código →</a>
-        </article>
-
-        <article class="project-card">
-          <span class="badge badge--done">concluído</span>
-          <h3 class="project-card__title">Weather Dashboard</h3>
-          <p class="project-card__desc">Consumo da API OpenWeatherMap com tratamento de erros para cidades inválidas.</p>
-          <div class="tags"><span class="tag">API</span><span class="tag">fetch</span></div>
-          <a href="#" class="project-card__link">ver código →</a>
-        </article>
-
-        <article class="project-card">
-          <span class="badge badge--done">concluído</span>
-          <h3 class="project-card__title">Expense Tracker</h3>
-          <p class="project-card__desc">Controle de gastos com manipulação de DOM e cálculo de totais usando reduce.</p>
-          <div class="tags"><span class="tag">DOM</span><span class="tag">reduce</span></div>
-          <a href="#" class="project-card__link">ver código →</a>
-        </article>
-
-      </div>
-    </div>
-  </section>
-
-  <!-- CONTATO -->
-  <section class="section section--alt" id="contato">
-    <div class="container">
-      <p class="eyebrow">// contato.sh</p>
-      <h2 class="section__title">Vamos conversar?</h2>
-      <p class="contact__text">Estou aberto a oportunidades como desenvolvedor junior ou projetos freelance. Me chama em um dos canais abaixo.</p>
-
-      <div class="contact-links">
-        <a href="mailto:seuemail@exemplo.com" class="contact-link">
-          <span class="contact-link__label">email</span>
-          <span class="contact-link__value">seuemail@exemplo.com</span>
-        </a>
-        <a href="#" class="contact-link">
-          <span class="contact-link__label">github</span>
-          <span class="contact-link__value">github.com/seu-usuario</span>
-        </a>
-        <a href="#" class="contact-link">
-          <span class="contact-link__label">linkedin</span>
-          <span class="contact-link__value">linkedin.com/in/seu-usuario</span>
-        </a>
-      </div>
-    </div>
-  </section>
-
-</main>
-
-<footer class="footer">
-  <div class="container">
-    <p>&copy; 2026 Rogerio. Construído linha por linha, um bug de cada vez.</p>
-  </div>
-</footer>
-
-<script src="script.js"></script>
-</body>
+    <script src="script.js"></script>
+  </body>
 </html>
